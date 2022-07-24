@@ -21,26 +21,6 @@ public class HomeController {
     @RequestMapping("/greeting/goodbye")
     public String world(){
       return "Goodbye world!";
-//      
-//	@RequestMapping("")
-//    public String hellos() {
-//            return "Hello World!!!!";
-//    }
-//    @RequestMapping("/world")
-//    public String world() {
-//            return "Class level annotations are cool too!";
-//    }
-//	 // 1. Annotation
-//    @RequestMapping("/")
-//    
-//    // 3. Method that maps to the request route above
-//    public String hello() { // 3
-//            return "Hello World!";
-//    }
-//    @RequestMapping("											")
-//    public String myMsg() { // 3
-//        return "my first project!jjj :) ";
-}
-//    
+  
 
 }
