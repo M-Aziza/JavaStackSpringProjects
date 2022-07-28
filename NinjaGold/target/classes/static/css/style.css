@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+
+.container{
+    height: 500px;
+    width: 1000px;
+    margin: 52px;
+}
+#top p, #top input{
+    width: 82px;
+    margin-left: 45px;
+    display: inline-block;
+}
+#rest{
+    float: right;
+    margin-top: 15px;
+    margin-right: 45px;
+}
+.forms{
+    height: 200px;
+    width: 200px;
+    margin-left: 43px;
+    padding-top: 35px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+}
+#bottom{
+    margin-left: 35px;
+    margin-top: 20px;
+    height: 200px;
+    padding: 10px;
+    /* width: 100%; */
+    border: 2px solid;
+    overflow-y: scroll;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    margin-left: 11px;
+}
+.bottom p {
+    margin-left: 43px;
+}
