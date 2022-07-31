@@ -13,12 +13,11 @@
 <body>
 	
 
-	
-		<div class="container m-4 p-4 ">
+	<div class="container m-4 p-4 ">
 	    <h1><c:out value = "${book.title}"/>title</h1>
-        <h5><c:out value = "${book.description}"/></h5>
-        <h5><c:out value = "${book.language}"/></h5>
-        <h5><c:out value = "${book.numberOfPages}"/></h5>
+        <h5>Description : <c:out value = "${book.description}"/></h5>
+        <h5>Language : <c:out value = "${book.language}"/></h5>
+        <h5>Number Of Pages<c:out value = "${book.numberOfPages}"/></h5>
     	</div>
         
 
